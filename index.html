@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta charset="UTF-8">
+		<title>Binary Converter</title>
+		<link rel="stylesheet" href="./style.css">
+		<script src="./main.js"></script>
+	</head>
+	<body>
+		<button class="action-button clear">Clear All</button>
+		<div class="section binary-converter">
+			<span class="hint noselect">Enter a value into any of the fields, and click on "Convert". Remember to "Clear All" before starting a new conversion.</span>
+			<div class="input-wrapper">
+				<span class="label noselect">Decimal</span>
+				<span class="input decimal" data-type="decimal" contenteditable="true"></span>
+				<span class="hint noselect"></span>
+			</div>
+			<div class="input-wrapper">
+				<span class="label noselect">Binary</span>
+				<span class="input binary" data-type="binary" contenteditable="true"></span>
+				<span class="hint noselect"></span>
+			</div>
+			<div class="input-wrapper">
+				<span class="label noselect">One's Complement</span>
+				<span class="input one-c" data-type="one-c" contenteditable="true"></span>
+				<span class="hint noselect"></span>
+			</div>
+			<div class="input-wrapper">
+				<span class="label noselect">Two's Complement</span>
+				<span class="input two-c" data-type="two-c" contenteditable="true"></span>
+				<span class="hint noselect"></span>
+			</div>
+			<div class="action-button-wrapper">
+				<button class="action-button convert">Convert</button>
+			</div>
+		</div>
+
+	</body>
+</html>
